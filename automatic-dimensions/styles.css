@@ -1,0 +1,16 @@
+body {
+    padding: 20px;
+}
+
+#myCanvas {
+    border: 1px solid #666;
+
+    /* border-box sizing does not add border widths to element
+    width and height calculations. This allows #myCanvas to be 
+    sized to exact dimensions, not dimensions +2 on each axis. */
+    box-sizing: border-box;
+}
+
+#myCanvas:hover {
+    cursor: crosshair;
+}

@@ -1,0 +1,18 @@
+body {
+    padding: 20px;
+}
+
+#myCanvas {
+    border: 1px solid #666;
+    width: 1024px;
+    height: 498px;
+
+    /* border-box sizing does not add border widths to element
+    width and height calculations. This allows #myCanvas to be 
+    sized as exactly what's shown above, not +2 on each axis. */
+    box-sizing: border-box;
+}
+
+#myCanvas:hover {
+    cursor: crosshair;
+}
